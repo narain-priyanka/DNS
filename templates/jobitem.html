@@ -6,10 +6,11 @@
     {% if 'Salary' in job: %}
     <div><h5 style="color: grey">Salary: {{job["Salary"]}}</h5></div>
     {% endif %}
-
+    
   </div>
   
   <div class="col-3">
-    <button type="button" class="btn btn-outline-secondary">Apply</button>
+    <a href="mailto:narain.priyanka20@gmail.com?subject=Application%20to%20{{job["Job_title"]}}&body=Hey%2C%0D%0A%0D%0AAttach%20you%20resume%3A%0D%0AWrite%20a%20brief%20intro%3A" type="button" class="btn btn-outline-secondary">Apply</a>
   </div>
 </div>
+

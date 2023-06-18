@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    {% include 'nav.html' %}
     <style>
       #banner{
         height: 360px;
@@ -25,11 +26,10 @@
           {% endfor %}
         </div>
         <div class="text-center">
-          <button class="btn btn-primary">Contact Us</button>  
+        <a href="mailto:narain.priyanka20@gmail.com?body=You%20may%20contact%20us%20on%20this%20email%20and%20your%20issue%20will%20be%20resolved%20in%202%20business%20days" type="button" class="btn btn-primary">Contact Us</a>
         </div>
-        
+      {% include 'Foot.html' %}
     </body>
-    
     </div>
     
   </head>
